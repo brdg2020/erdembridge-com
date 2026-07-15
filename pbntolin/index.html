@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PBN to LIN Converter</title>
+</head>
+<body>
+    <h1>PBN to LIN Converter (v5)</h1>
+    <p>Select a .pbn file to convert it to BBO .lin format.</p>
+    <input type="file" id="fileInput" accept=".pbn"><br><br>
+    <button id="convertBtn">Convert</button>
+
+    <script>
+        document.getElementById('convertBtn').addEventListener('click', () => {
+            const fileInput = document.getElementById('fileInput');
+            if (fileInput.files.length === 0) {
+                alert('Please select a .pbn file first.');
+                return;
+            }
+            const file = fileInput.files[0];
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const text = e.target.result;
+                try {
+                    const linContent = convertPbnToLin(text);
+                    if (!linContent) {
+                        alert('No valid deals found in the PBN file.');
+                        return;
+                    }
+                    downloadFile(linContent, file.name.replace(/\.pbn$/i, '') + '.lin');
+                } catch (err) {
+                    alert('An error occurred during conversion: ' + err.message);
+                }
+            };
+            reader.readAsText(file);
+        });
+
+        // Parses raw PBN (Portable Bridge Notation) file contents into an array of game objects.
+        // Each game object represents a parsed deal with keys matching the PBN tags (e.g. Deal, Dealer, Vulnerable).
+        function parsePbn(text) {
+            const games = [];
+            const lines = text.split(/\r?\n/);
+            let currentGame = null;
+            
+            for (let line of lines) {
+                line = line.trim();
+                if (!line) continue;
+                
+                const match = line.match(/^\[(\w+)\s+"([^"]*)"\]/);
+                if (match) {
+                    const name = match[1];
+                    const value = match[2];
+                    
+                    // Event tag or consecutive Board tag marks the start of a new deal record
+                    if (name === 'Event' || (name === 'Board' && currentGame && currentGame['Board'])) {
+                        if (currentGame) {
+                            games.push(currentGame);
+                        }
+                        currentGame = {};
+                    }
+                    if (!currentGame) {
+                        currentGame = {};
+                    }
+                    currentGame[name] = value;
+                }
+            }
+            if (currentGame) {
+                games.push(currentGame);
+            }
+            return games;
+        }
+
+        // Converts a standard PBN hand representation (ranks separated by dots: Pik.Kör.Karo.Sinek)
+        // to BBO's LIN hand rank structure (e.g. S...H...D...C...).
+        function pbnHandToBbo(handStr) {
+            if (!handStr) return 'SHDC';
+            const suits = handStr.split('.');
+            while (suits.length < 4) {
+                suits.push('');
+            }
+            return `S${suits[0]}H${suits[1]}D${suits[2]}C${suits[3]}`;
+        }
+
+        // Maps PBN vulnerability tag values (None, NS, EW, All, Both)
+        // to BBO's single-character vulnerability codes (o, N, E, B).
+        function getBboVulnerability(pbnVul) {
+            const vul = (pbnVul || '').toLowerCase().replace(/[^a-z]/g, '');
+            if (vul === 'ns') return 'N';
+            if (vul === 'ew') return 'E';
+            if (vul === 'all' || vul === 'both') return 'B';
+            return 'o'; // default to none (Love)
+        }
+
+        // Distributes deal ranks into individual player hands based on the dealer seat.
+        // PBN hands are ordered clockwise starting from the designated dealer character (first char).
+        function getHandsInSwnOrder(deal) {
+            const firstChar = deal.charAt(0).toUpperCase();
+            const handsPart = deal.substring(2);
+            const pbnHands = handsPart.split(' ');
+            
+            let south = '', west = '', north = '', east = '';
+            
+            if (firstChar === 'N') {
+                north = pbnHands[0];
+                east = pbnHands[1];
+                south = pbnHands[2];
+                west = pbnHands[3];
+            } else if (firstChar === 'E') {
+                east = pbnHands[0];
+                south = pbnHands[1];
+                west = pbnHands[2];
+                north = pbnHands[3];
+            } else if (firstChar === 'S') {
+                south = pbnHands[0];
+                west = pbnHands[1];
+                north = pbnHands[2];
+                east = pbnHands[3];
+            } else if (firstChar === 'W') {
+                west = pbnHands[0];
+                north = pbnHands[1];
+                east = pbnHands[2];
+                south = pbnHands[3];
+            }
+            
+            return { south, west, north, east };
+        }
+
+        // Parses PBN games and compiles them into a unified multi-board BBO .lin data string.
+        function convertPbnToLin(pbnText) {
+            const games = parsePbn(pbnText);
+            const linLines = [];
+            let boardIndex = 1;
+
+            for (let game of games) {
+                const board = boardIndex++;
+                const dealer = game['Dealer'] || 'N';
+                const vulnerable = game['Vulnerable'] || 'None';
+                const deal = game['Deal'] || '';
+
+                if (!deal) continue;
+
+                const southName = game['South'] || '';
+                const westName = game['West'] || '';
+                const northName = game['North'] || '';
+                const eastName = game['East'] || '';
+
+                const dealerMap = { 'S': '1', 'W': '2', 'N': '3', 'E': '4' };
+                const bboDealer = dealerMap[dealer.toUpperCase()] || '3';
+                const bboVul = getBboVulnerability(vulnerable);
+
+                const { south, west, north } = getHandsInSwnOrder(deal);
+
+                let lin = `qx|o${board}|`;
+                lin += `md|${bboDealer}${pbnHandToBbo(south)},${pbnHandToBbo(west)},${pbnHandToBbo(north)}|`;
+                lin += `rh||`;
+                lin += `ah|Board ${board}|`;
+                lin += `sv|${bboVul}|`;
+                
+                if (southName || westName || northName || eastName) {
+                    lin += `pn|${southName},${westName},${northName},${eastName}|`;
+                }
+                
+                lin += `pg||`;
+
+                linLines.push(lin);
+            }
+
+            return linLines.join('\n');
+        }
+
+        // Triggers download of converted contents to local file system.
+        function downloadFile(content, filename) {
+            const blob = new Blob([content], { type: 'text/plain;charset=utf-8' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+    </script>
+</body>
+</html>
