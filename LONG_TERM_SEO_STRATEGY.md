@@ -15,6 +15,19 @@ To prevent keyword cannibalization and maximize shared topical authority, search
 | **Content Type** | Comprehensive tutorial guides, glossary dictionary, interactive quizzes, video breakdowns. | Biyografi, credentials, student testimonials, course schedules (yüz yüze & online), blog editorials. |
 | **Tone** | Objective, pedagogical, structured, community-oriented. | Personal, professional, elite, high-achieving. |
 
+### Search Intent Mapping (Keyword Assignment)
+To fully prevent keyword cannibalization, each primary topic and keyword cluster is mapped exclusively to one domain:
+
+| Topic / Keyword | Intended Target Domain | Search Intent Type | Content Asset Mapping |
+|:---|:---|:---|:---|
+| "Briç öğren", "Briç nasıl oynanır" | **bricdersi.net** | Informational (Beginner) | `/bric-baslangic-rehberi` (Pillar Page) |
+| "Briç kuralları", "Briç skor hesaplama" | **bricdersi.net** | Informational | `/bric-puan-hesaplama-ve-skor` |
+| "Drury", "Jacoby 2NT", "Fit 2NT" | **bricdersi.net** | Informational (Advanced) | Silo `/bric-konvansiyonlari/` |
+| "BBO oyna", "BBO Türkçe" | **bricdersi.net** | Informational / Utility | `/bbo-online-oyun-rehberi` |
+| "Erdem Öztürk kimdir" | **erdembridge.com** | Navigational / Brand | `/hakkimda` |
+| "Özel briç dersi", "İstanbul briç kursu" | **erdembridge.com** | Transactional | `/ozel-bric-dersleri` |
+| "Briç turnuva analizleri" | **erdembridge.com** | Editorial / Blog | `/blog` |
+
 ---
 
 ## 2. Content Architecture & Pillar Pages
@@ -71,6 +84,16 @@ graph TD
 
 *   **From `bricdersi.net` to `erdembridge.com`:** All lesson pages (e.g., Fit 2NT) contain a subtle, high-converting call-to-action (CTA): *"Bu konvansiyonu pratik ederek öğrenmek ister misiniz? Milli Takım Antrenörü Erdem Öztürk'ten [Özel Briç Dersleri](https://www.erdembridge.com/ozel-bric-dersleri) alın."*
 *   **From `erdembridge.com` to `bricdersi.net`:** The biography/experience page references the educational portal: *"Briç sporunun gelişmesi ve teorik eğitim notlarına kolay ulaşılması amacıyla kurduğum [bricdersi.net](https://bricdersi.net) portalını ziyaret ederek ücretsiz kaynaklara erişebilirsiniz."*
+
+### Internal Linking Rules
+The following structural links must be maintained to distribute PageRank and trust signals:
+1.  **Pillar & Cluster Connections:**
+    *   Every cluster page (e.g. `/bric-puan-hesaplama-ve-skor`) must link back to its parent pillar page (e.g. `/bric-baslangic-rehberi`).
+    *   Every pillar page must link out to all relevant cluster pages in its silo.
+2.  **New Content Integration:**
+    *   Every new article published must contain links to at least **3 existing articles** in the same domain cluster to prevent orphaned pages.
+3.  **Cross-Domain Protocol:**
+    *   Links between `bricdersi.net` and `erdembridge.com` must be natural, contextual, and only deployed when they add clear value to the user (e.g. educational CTA or author citation). Do not use sitewide footer cross-links.
 
 ---
 
@@ -143,7 +166,7 @@ Remove Wikipedia backlink strategies to avoid span blocks. Implement professiona
 
 ## 9. E-E-A-T & Author Quality
 
-*   **Author Profile Page:** Create a dedicated author page for Erdem Öztürk outlining his 15+ years of teaching experience, university degree (ODTÜ), TBF credentials, and tournament achievements.
+*   **Author Profile Page:** Create a dedicated author page for Erdem Öztürk outlining his teaching experience, that he attended ODTÜ, certified TBF credentials, and tournament records.
 *   **Editorial Policy:** Publish an explicit editorial guidelines page detailing how content is researched, written, and verified.
 *   **Content Update Policy:** Display a clear *"Last Reviewed / Updated on [Date]"* tag on all guides.
 *   **Expert Citations:** Link to official TBF rules PDFs and tournament records.
@@ -154,7 +177,7 @@ Remove Wikipedia backlink strategies to avoid span blocks. Implement professiona
 ## 10. Content Maintenance & Freshness Policy
 
 *   **Freshness Schedule:** Audit and update the top 6 informational guides quarterly to align with changes in conventions or BBO configurations.
-*   **Content Pruning:** Annually remove or merge thin pages that capture zero search impressions to concentrate domain authority.
+*   **Content Pruning:** Annually improve or merge thin pages that capture zero search impressions before considering removal to concentrate domain authority.
 *   **Internal Link Audits:** Use crawl scripts to inspect and repair broken internal links or stale cross-links.
 *   **Evergreen Content Protection:** Keep core glossary terms and beginning guides static while updating examples and quizzes to maintain search rank rankings.
 
