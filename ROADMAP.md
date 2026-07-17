@@ -37,12 +37,9 @@ graph TD
 * **Expected Impact:** **High Security** (restricts XSS vulnerability window).
 * **Implementation Risk:** Low. Users will need to paste the token per-session.
 
-### 1.3 Domain Name Migration (SEO-02)
-* **Description:** Migrate all hardcoded `erdembridge.com` links and tags to `bricdersi.net` (canonical links, schema JSON-LD metadata, and title attributes).
-* **Dependencies:** Final domain setup confirmation.
-* **Complexity:** Low (1 hour).
-* **Expected Impact:** **Critical SEO** (aligns index authority to `bricdersi.net`).
-* **Implementation Risk:** Low.
+### 1.3 Domain Name Migration (SEO-02) [COMPLETED]
+* **Description:** Migrated all hardcoded `erdembridge.com` links and tags to `bricdersi.net` (canonical links, schema JSON-LD metadata, and title attributes) to resolve canonical conflicts.
+* **Expected Impact:** **Critical SEO** (fully aligns index authority to `bricdersi.net`).
 
 ---
 

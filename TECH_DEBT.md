@@ -6,9 +6,8 @@ This document details the existing technical debt, architectural constraints, an
 
 ## 1. Pending & Postponed Migrations
 
-* **Domain Name Transition:** 
-  * Currently, all canonical URLs, Open Graph schemas, dynamically updated link targets, and title suffixes are hardcoded to `erdembridge.com`.
-  * **Target:** Update all references of `https://www.erdembridge.com` and `erdembridge.com` to `https://www.bricdersi.net` and `bricdersi.net`.
+* **Domain Name Transition (COMPLETED):** 
+  * All canonical URLs, Open Graph tags, Twitter card tags, JSON-LD schemas, and dynamic Javascript metadata updaters have been migrated from `erdembridge.com` to `bricdersi.net` to resolve the canonical domain conflict.
 * **Google Play Link Package:** 
   * The download link currently targets `com.erdembridge.quiz`.
   * **Target:** Update if the application is republished under a new namespace.

@@ -2,6 +2,19 @@
 
 All notable changes and optimization work for this project are documented in this file to prepare the codebase for future developers and AI agents (such as Claude).
 
+## [1.2.0] - 2026-07-17
+
+### Fixed
+* **Canonical Domain Conflict Resolved:**
+  * Migrated all hardcoded URL canonical links, Open Graph tag target URLs, Twitter cards, sitemap URLs, and robots.txt sitemap references from `erdembridge.com` to `bricdersi.net`.
+  * Updated JSON-LD schemas, `@id` properties, and URL descriptors to point to `bricdersi.net` to preserve structural indexing graph integrity.
+
+### Retained References
+* **Google Play App Package Link:** The package identifier `com.erdembridge.quiz` remains unchanged in the download link to avoid breaking connection with the live store application.
+* **Passcode Lock Gate:** The Question Database Editor passcode remains `erdembridge2026` to preserve user access settings.
+
+---
+
 ## [1.1.0] - 2026-07-15
 
 ### Cleaned & Refactored
