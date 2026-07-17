@@ -1,0 +1,121 @@
+{
+  "site_base_url": "https://www.bricdersi.net",
+  "default_og_image": "https://www.bricdersi.net/logo.png",
+  "pages": [
+    {
+      "route": "",
+      "title": "İstanbul Özel Briç Dersleri & Online Eğitim | Erdem Öztürk",
+      "description": "Milli Takım Antrenörü Erdem Öztürk'ten İstanbul Beşiktaş Levent'te yüz yüze ve online özel briç dersleri. Başlangıç seviyesinden turnuva hazırlığına.",
+      "has_faq": true,
+      "breadcrumbs": [
+        {"name": "Anasayfa", "item": ""}
+      ]
+    },
+    {
+      "route": "hakkimda",
+      "title": "Milli Takım Antrenörü Erdem Öztürk | Biyografi & Briç Kariyeri",
+      "description": "Türkiye Briç Milli Takım Antrenörü Erdem Öztürk kimdir? Kariyeri, başarıları, antrenörlük felsefesi ve İstanbul briç dersi çalışmaları.",
+      "breadcrumbs": [
+        {"name": "Anasayfa", "item": ""},
+        {"name": "Hakkımda", "item": "hakkimda"}
+      ]
+    },
+    {
+      "route": "dersler",
+      "title": "Briç Dersi & Özel Kurs Programları | Erdem Öztürk Briç",
+      "description": "Her seviyeye uygun yüz yüze ve online özel briç dersi programları. BBO pratik kulübü, deklare ve defans teknikleri eğitimi.",
+      "breadcrumbs": [
+        {"name": "Anasayfa", "item": ""},
+        {"name": "Dersler", "item": "dersler"}
+      ]
+    },
+    {
+      "route": "rehber",
+      "title": "BBO Türkçe Oyna & Briç Konvansiyon Rehberi | Erdem Öztürk",
+      "description": "Bridge Base Online (BBO) Türkçe oynama rehberi, Drury, Jacoby 2NT, Inverted Minör konvansiyon notları ve Jannersten briç malzemeleri.",
+      "breadcrumbs": [
+        {"name": "Anasayfa", "item": ""},
+        {"name": "Rehber & Malzemeler", "item": "rehber"}
+      ]
+    },
+    {
+      "route": "sss",
+      "title": "Sıkça Sorulan Sorular (S.S.S.) | Erdem Öztürk Briç Eğitimi",
+      "description": "Briç öğrenmek ne kadar sürer? Özel ders ücretleri, kitap desteği ve malzeme siparişi hakkında sıkça sorulan sorular.",
+      "has_faq": true,
+      "breadcrumbs": [
+        {"name": "Anasayfa", "item": ""},
+        {"name": "S.S.S.", "item": "sss"}
+      ]
+    },
+    {
+      "route": "iletisim",
+      "title": "İletişim & Özel Ders Kayıt | Erdem Öztürk Briç Kursu",
+      "description": "İstanbul Beşiktaş Levent Tenis Kulübü yüz yüze dersleri veya online özel briç dersi kaydı için WhatsApp ve iletişim kanallarımız.",
+      "breadcrumbs": [
+        {"name": "Anasayfa", "item": ""},
+        {"name": "İletişim", "item": "iletisim"}
+      ]
+    },
+    {
+      "route": "bric-baslangic-rehberi",
+      "title": "Sıfırdan Briç Öğrenme Rehberi & Temel Oyun Kuralları | bricdersi.net",
+      "description": "Briç oyununa başlangıç rehberi! Temel amaç, konuşmalar, oyun akışı ve kart dağılım kuralları ile interaktif başlangıç seviyesi testleri.",
+      "breadcrumbs": [
+        {"name": "Anasayfa", "item": ""},
+        {"name": "Rehber", "item": "rehber"},
+        {"name": "Başlangıç Rehberi", "item": "bric-baslangic-rehberi"}
+      ]
+    },
+    {
+      "route": "bric-puan-hesaplama-ve-skor",
+      "title": "Briç Puan Hesaplama & Skor Tablosu Rehberi | bricdersi.net",
+      "description": "Briçte skor nasıl hesaplanır? Kontrat puanları, zon ve şlem primleri, batık cezaları, sürkontr çarpanları ve interaktif puanlama soruları.",
+      "breadcrumbs": [
+        {"name": "Anasayfa", "item": ""},
+        {"name": "Rehber", "item": "rehber"},
+        {"name": "Puan Hesaplama & Skor", "item": "bric-puan-hesaplama-ve-skor"}
+      ]
+    },
+    {
+      "route": "bric-el-degerlendirme-alistirmalari",
+      "title": "Briçte El Değerlendirme & Puan Sayma Alıştırmaları | bricdersi.net",
+      "description": "Briçte el kuvveti nasıl değerlendirilir? Onör puanları, dağılım puanı (şikan, tekli, ikili) eklemeleri ve interaktif el değerlendirme test soruları.",
+      "breadcrumbs": [
+        {"name": "Anasayfa", "item": ""},
+        {"name": "Rehber", "item": "rehber"},
+        {"name": "El Değerlendirme Alıştırmaları", "item": "bric-el-degerlendirme-alistirmalari"}
+      ]
+    },
+    {
+      "route": "bric-oyun-kurallari-ve-deklarasyon",
+      "title": "Temel Deklarasyon Kuralları & Konuşma Sırası Rehberi | bricdersi.net",
+      "description": "Briçte açık arttırma (deklarasyon) nasıl yapılır? Pas, kontr, sürkontr kavramları, konuşma basamakları ve interaktif konuşma simülasyonu.",
+      "breadcrumbs": [
+        {"name": "Anasayfa", "item": ""},
+        {"name": "Rehber", "item": "rehber"},
+        {"name": "Deklarasyon Kuralları", "item": "bric-oyun-kurallari-ve-deklarasyon"}
+      ]
+    },
+    {
+      "route": "bric-kart-oyunu-ve-love-saglama",
+      "title": "Başlangıç Seviyesi Kart Oyunu & Löve Alma Teknikleri | bricdersi.net",
+      "description": "Briçte yer oyunu ve defans teknikleri! Alıcı kartları oynama, empas mantığı, koz çekme zamanlaması ve interaktif kart oyunu alıştırmaları.",
+      "breadcrumbs": [
+        {"name": "Anasayfa", "item": ""},
+        {"name": "Rehber", "item": "rehber"},
+        {"name": "Kart Oyunu Teknikleri", "item": "bric-kart-oyunu-ve-love-saglama"}
+      ]
+    },
+    {
+      "route": "bric-bbo-online-oyun-rehberi",
+      "title": "Bridge Base Online (BBO) Kullanım ve Oyun Rehberi | bricdersi.net",
+      "description": "BBO (Bridge Base Online) nedir, nasıl oynanır? BBO'da Türkçe masa açma, botlarla pratik yapma, deklare verme ve online briç taktikleri.",
+      "breadcrumbs": [
+        {"name": "Anasayfa", "item": ""},
+        {"name": "Rehber", "item": "rehber"},
+        {"name": "BBO Rehberi", "item": "bric-bbo-online-oyun-rehberi"}
+      ]
+    }
+  ]
+}
