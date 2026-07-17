@@ -7,6 +7,18 @@
       "**/.*",
       "**/node_modules/**"
     ],
+    "redirects": [
+      {
+        "source": "/briç-malzemeleri",
+        "destination": "/rehber",
+        "type": 301
+      },
+      {
+        "source": "/bri%C3%A7-malzemeleri",
+        "destination": "/rehber",
+        "type": 301
+      }
+    ],
     "rewrites": [
       {
         "source": "**",
