@@ -313,6 +313,101 @@
           "item": "sanzatu-oyun-plani"
         }
       ]
+    },
+    {
+      "route": "bric-sozlugu",
+      "title": "A'dan Z'ye Briç Terimleri Sözlüğü & Anlamları | bricdersi.net",
+      "description": "Kapsamlı briç terimleri sözlüğü! Löve, koz, deklare, empas, şikan, kontr, sürkontr, BBO kavramları ve Türkçe briç terimlerinin açıklamaları.",
+      "breadcrumbs": [
+        {
+          "name": "Anasayfa",
+          "item": ""
+        },
+        {
+          "name": "Rehber",
+          "item": "rehber"
+        },
+        {
+          "name": "Briç Terimleri Sözlüğü",
+          "item": "bric-sozlugu"
+        }
+      ]
+    },
+    {
+      "route": "bric-konvansiyonlari-listesi",
+      "title": "En Çok Kullanılan Briç Konvansiyonları Listesi & Rehberi | bricdersi.net",
+      "description": "Modern briçte en popüler konvansiyonlar listesi! Stayman, Jacoby Transfer, Drury, Blackwood RKCB, Lebensohl, Inverted Minors ve kullanım rehberleri.",
+      "breadcrumbs": [
+        {
+          "name": "Anasayfa",
+          "item": ""
+        },
+        {
+          "name": "Rehber",
+          "item": "rehber"
+        },
+        {
+          "name": "Konvansiyon Listesi",
+          "item": "bric-konvansiyonlari-listesi"
+        }
+      ]
+    },
+    {
+      "route": "1nt-acisina-yanitlar",
+      "title": "1NT Açışına Yanıtlar & Deklarasyon Stratejileri | bricdersi.net",
+      "description": "1NT (1 Sanzatu) açışına verilecek yanıtlar! Pas, 2♣ Stayman, 2♦/2♥ Transfer, 2NT davet, 3NT zon ve şlem konuşmaları rehberi.",
+      "breadcrumbs": [
+        {
+          "name": "Anasayfa",
+          "item": ""
+        },
+        {
+          "name": "Rehber",
+          "item": "rehber"
+        },
+        {
+          "name": "1NT Açışına Yanıtlar",
+          "item": "1nt-acisina-yanitlar"
+        }
+      ]
+    },
+    {
+      "route": "bric-empas-teknikleri",
+      "title": "Briçte Empas Teknikleri & Yer Oyunu Taktikleri | bricdersi.net",
+      "description": "Briçte empas nasıl atılır? Direkt empas, çift taraflı empas, en-passant çakası ve kayıp kartları temizleme teknikleri rehberi.",
+      "breadcrumbs": [
+        {
+          "name": "Anasayfa",
+          "item": ""
+        },
+        {
+          "name": "Rehber",
+          "item": "rehber"
+        },
+        {
+          "name": "Empas Teknikleri",
+          "item": "bric-empas-teknikleri"
+        }
+      ]
+    },
+    {
+      "route": "bric-atak-ve-defans-sinyalleri",
+      "title": "Briç Açılış Atakları & Defans Sinyalleri Rehberi | bricdersi.net",
+      "description": "Briçte en iyi defans nasıl yapılır? İlk atak seçimleri, marka verme (UDCA/Standart), sayı sinyali ve koz sinyali kuralları.",
+      "breadcrumbs": [
+        {
+          "name": "Anasayfa",
+          "item": ""
+        },
+        {
+          "name": "Rehber",
+          "item": "rehber"
+        },
+        {
+          "name": "Defans Sinyalleri",
+          "item": "bric-atak-ve-defans-sinyalleri"
+        }
+      ]
     }
   ]
 }
