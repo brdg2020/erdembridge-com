@@ -5,125 +5,125 @@ Total Pages Generated: 18
 1. Route: '/'
    URL: https://www.erdembridge.com/
    Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\index.html
-   File Size: 315302 bytes
+   File Size: 315437 bytes
    Verification - Canonical Matches Host: PASS
    Verification - Client-side Loader Injected: PASS
 
 2. Route: '/hakkimda'
    URL: https://www.erdembridge.com/hakkimda
    Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\hakkimda\index.html
-   File Size: 314165 bytes
+   File Size: 314300 bytes
    Verification - Canonical Matches Host: PASS
    Verification - Client-side Loader Injected: PASS
 
 3. Route: '/dersler'
    URL: https://www.erdembridge.com/dersler
    Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\dersler\index.html
-   File Size: 314068 bytes
+   File Size: 314203 bytes
    Verification - Canonical Matches Host: PASS
    Verification - Client-side Loader Injected: PASS
 
 4. Route: '/rehber'
    URL: https://www.erdembridge.com/rehber
    Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\rehber\index.html
-   File Size: 314102 bytes
+   File Size: 314237 bytes
    Verification - Canonical Matches Host: PASS
    Verification - Client-side Loader Injected: PASS
 
 5. Route: '/sss'
    URL: https://www.erdembridge.com/sss
    Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\sss\index.html
-   File Size: 315349 bytes
+   File Size: 315484 bytes
    Verification - Canonical Matches Host: PASS
    Verification - Client-side Loader Injected: PASS
 
 6. Route: '/iletisim'
    URL: https://www.erdembridge.com/iletisim
    Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\iletisim\index.html
-   File Size: 314109 bytes
+   File Size: 314244 bytes
    Verification - Canonical Matches Host: PASS
    Verification - Client-side Loader Injected: PASS
 
 7. Route: '/bric-baslangic-rehberi'
    URL: https://www.erdembridge.com/bric-baslangic-rehberi
    Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\bric-baslangic-rehberi\index.html
-   File Size: 314427 bytes
+   File Size: 314562 bytes
    Verification - Canonical Matches Host: PASS
    Verification - Client-side Loader Injected: PASS
 
 8. Route: '/bric-puan-hesaplama-ve-skor'
    URL: https://www.erdembridge.com/bric-puan-hesaplama-ve-skor
    Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\bric-puan-hesaplama-ve-skor\index.html
-   File Size: 314399 bytes
+   File Size: 314534 bytes
    Verification - Canonical Matches Host: PASS
    Verification - Client-side Loader Injected: PASS
 
 9. Route: '/bric-el-degerlendirme-alistirmalari'
    URL: https://www.erdembridge.com/bric-el-degerlendirme-alistirmalari
    Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\bric-el-degerlendirme-alistirmalari\index.html
-   File Size: 314525 bytes
+   File Size: 314660 bytes
    Verification - Canonical Matches Host: PASS
    Verification - Client-side Loader Injected: PASS
 
 10. Route: '/bric-oyun-kurallari-ve-deklarasyon'
    URL: https://www.erdembridge.com/bric-oyun-kurallari-ve-deklarasyon
    Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\bric-oyun-kurallari-ve-deklarasyon\index.html
-   File Size: 314477 bytes
+   File Size: 314612 bytes
    Verification - Canonical Matches Host: PASS
    Verification - Client-side Loader Injected: PASS
 
 11. Route: '/bric-kart-oyunu-ve-love-saglama'
    URL: https://www.erdembridge.com/bric-kart-oyunu-ve-love-saglama
    Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\bric-kart-oyunu-ve-love-saglama\index.html
-   File Size: 314464 bytes
+   File Size: 314599 bytes
    Verification - Canonical Matches Host: PASS
    Verification - Client-side Loader Injected: PASS
 
 12. Route: '/bric-bbo-online-oyun-rehberi'
    URL: https://www.erdembridge.com/bric-bbo-online-oyun-rehberi
    Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\bric-bbo-online-oyun-rehberi\index.html
-   File Size: 314391 bytes
+   File Size: 314526 bytes
    Verification - Canonical Matches Host: PASS
    Verification - Client-side Loader Injected: PASS
 
 13. Route: '/ozel-bric-dersleri'
    URL: https://www.erdembridge.com/ozel-bric-dersleri
    Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\ozel-bric-dersleri\index.html
-   File Size: 314259 bytes
+   File Size: 314394 bytes
    Verification - Canonical Matches Host: PASS
    Verification - Client-side Loader Injected: PASS
 
 14. Route: '/stayman-konvansiyonu'
    URL: https://www.erdembridge.com/stayman-konvansiyonu
    Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\stayman-konvansiyonu\index.html
-   File Size: 314372 bytes
+   File Size: 314507 bytes
    Verification - Canonical Matches Host: PASS
    Verification - Client-side Loader Injected: PASS
 
 15. Route: '/jacoby-transfer'
    URL: https://www.erdembridge.com/jacoby-transfer
    Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\jacoby-transfer\index.html
-   File Size: 314297 bytes
+   File Size: 314432 bytes
    Verification - Canonical Matches Host: PASS
    Verification - Client-side Loader Injected: PASS
 
 16. Route: '/blackwood-rkcb-4nt'
    URL: https://www.erdembridge.com/blackwood-rkcb-4nt
    Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\blackwood-rkcb-4nt\index.html
-   File Size: 314311 bytes
+   File Size: 314446 bytes
    Verification - Canonical Matches Host: PASS
    Verification - Client-side Loader Injected: PASS
 
 17. Route: '/drury-2c'
    URL: https://www.erdembridge.com/drury-2c
    Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\drury-2c\index.html
-   File Size: 314321 bytes
+   File Size: 314456 bytes
    Verification - Canonical Matches Host: PASS
    Verification - Client-side Loader Injected: PASS
 
 18. Route: '/sanzatu-oyun-plani'
    URL: https://www.erdembridge.com/sanzatu-oyun-plani
    Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\sanzatu-oyun-plani\index.html
-   File Size: 314385 bytes
+   File Size: 314520 bytes
    Verification - Canonical Matches Host: PASS
    Verification - Client-side Loader Injected: PASS
