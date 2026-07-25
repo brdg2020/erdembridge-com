@@ -1,59 +1,87 @@
 === SSG Pipeline Build Validation Report ===
-Base URL: https://www.erdembridge.com
-Total Pages Generated: 8
+Base URL: https://www.bricdersi.net
+Total Pages Generated: 12
 
 1. Route: '/'
-   URL: https://www.erdembridge.com/
+   URL: https://www.bricdersi.net/
    Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\index.html
-   File Size: 348681 bytes
+   File Size: 348783 bytes
    Verification - Canonical Matches Host: PASS
    Verification - Client-side Loader Injected: PASS
 
 2. Route: '/ozel-bric-dersleri'
-   URL: https://www.erdembridge.com/ozel-bric-dersleri
+   URL: https://www.bricdersi.net/ozel-bric-dersleri
    Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\ozel-bric-dersleri\index.html
-   File Size: 347497 bytes
+   File Size: 347728 bytes
    Verification - Canonical Matches Host: PASS
    Verification - Client-side Loader Injected: PASS
 
-3. Route: '/istanbul-bric-dersi'
-   URL: https://www.erdembridge.com/istanbul-bric-dersi
-   Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\istanbul-bric-dersi\index.html
-   File Size: 347539 bytes
+3. Route: '/dersler'
+   URL: https://www.bricdersi.net/dersler
+   Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\dersler\index.html
+   File Size: 347548 bytes
    Verification - Canonical Matches Host: PASS
    Verification - Client-side Loader Injected: PASS
 
-4. Route: '/online-bric-koclugu'
-   URL: https://www.erdembridge.com/online-bric-koclugu
-   Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\online-bric-koclugu\index.html
-   File Size: 347492 bytes
-   Verification - Canonical Matches Host: PASS
-   Verification - Client-side Loader Injected: PASS
-
-5. Route: '/hakkimda'
-   URL: https://www.erdembridge.com/hakkimda
+4. Route: '/hakkimda'
+   URL: https://www.bricdersi.net/hakkimda
    Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\hakkimda\index.html
-   File Size: 347520 bytes
+   File Size: 347559 bytes
    Verification - Canonical Matches Host: PASS
    Verification - Client-side Loader Injected: PASS
 
-6. Route: '/referanslar'
-   URL: https://www.erdembridge.com/referanslar
-   Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\referanslar\index.html
-   File Size: 347453 bytes
+5. Route: '/bric-baslangic-rehberi'
+   URL: https://www.bricdersi.net/bric-baslangic-rehberi
+   Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\bric-baslangic-rehberi\index.html
+   File Size: 347658 bytes
    Verification - Canonical Matches Host: PASS
    Verification - Client-side Loader Injected: PASS
 
-7. Route: '/sss'
-   URL: https://www.erdembridge.com/sss
+6. Route: '/bric-sozlugu'
+   URL: https://www.bricdersi.net/bric-sozlugu
+   Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\bric-sozlugu\index.html
+   File Size: 347518 bytes
+   Verification - Canonical Matches Host: PASS
+   Verification - Client-side Loader Injected: PASS
+
+7. Route: '/bric-konvansiyonlari-listesi'
+   URL: https://www.bricdersi.net/bric-konvansiyonlari-listesi
+   Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\bric-konvansiyonlari-listesi\index.html
+   File Size: 347618 bytes
+   Verification - Canonical Matches Host: PASS
+   Verification - Client-side Loader Injected: PASS
+
+8. Route: '/1nt-acisina-yanitlar'
+   URL: https://www.bricdersi.net/1nt-acisina-yanitlar
+   Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\1nt-acisina-yanitlar\index.html
+   File Size: 347473 bytes
+   Verification - Canonical Matches Host: PASS
+   Verification - Client-side Loader Injected: PASS
+
+9. Route: '/bric-empas-teknikleri'
+   URL: https://www.bricdersi.net/bric-empas-teknikleri
+   Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\bric-empas-teknikleri\index.html
+   File Size: 347586 bytes
+   Verification - Canonical Matches Host: PASS
+   Verification - Client-side Loader Injected: PASS
+
+10. Route: '/bric-atak-ve-defans-sinyalleri'
+   URL: https://www.bricdersi.net/bric-atak-ve-defans-sinyalleri
+   Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\bric-atak-ve-defans-sinyalleri\index.html
+   File Size: 347563 bytes
+   Verification - Canonical Matches Host: PASS
+   Verification - Client-side Loader Injected: PASS
+
+11. Route: '/sss'
+   URL: https://www.bricdersi.net/sss
    Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\sss\index.html
-   File Size: 348560 bytes
+   File Size: 348750 bytes
    Verification - Canonical Matches Host: PASS
    Verification - Client-side Loader Injected: PASS
 
-8. Route: '/iletisim'
-   URL: https://www.erdembridge.com/iletisim
+12. Route: '/iletisim'
+   URL: https://www.bricdersi.net/iletisim
    Output File: C:\Users\Erdem\\.gemini\\antigravity\\scratch\\erdembridge-com\iletisim\index.html
-   File Size: 347422 bytes
+   File Size: 347545 bytes
    Verification - Canonical Matches Host: PASS
    Verification - Client-side Loader Injected: PASS
