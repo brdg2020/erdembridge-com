@@ -4,8 +4,8 @@
   "pages": [
     {
       "route": "",
-      "title": "Milli Takım Antrenörü Erdem Öztürk | İstanbul Özel Briç Dersleri & Koçluk",
-      "description": "Milli Takım Antrenörü Erdem Öztürk'ten İstanbul Beşiktaş Levent'te yüz yüze ve BBO üzerinde online özel briç dersleri. Sıfırdan başlangıç, deklare ve turnuva koçluğu.",
+      "title": "İstanbul Özel Briç Dersi & Briç Kursları | Milli Takım Antrenörü Erdem Öztürk",
+      "description": "Milli Takım Antrenörü Erdem Öztürk'ten İstanbul Beşiktaş Levent'te yüz yüze özel briç dersi ve BBO online briç kursları. Birebir koçluk ve turnuva hazırlığı.",
       "has_faq": true,
       "breadcrumbs": [
         {
@@ -15,54 +15,39 @@
       ]
     },
     {
-      "route": "hakkimda",
-      "title": "Milli Takım Antrenörü Erdem Öztürk | Biyografi, ODTÜ & Kariyer",
-      "description": "Türkiye Briç Milli Takım Kaptanı ve Antrenörü, TBF 3. Kademe Kıdemli Antrenör & TBF Hakemi Erdem Öztürk kimdir? ODTÜ kariyeri, milli takım başarıları ve eğitmenlik yaklaşımı.",
-      "breadcrumbs": [
-        {
-          "name": "Anasayfa",
-          "item": ""
-        },
-        {
-          "name": "Hakkımda",
-          "item": "hakkimda"
-        }
-      ]
-    },
-    {
       "route": "ozel-bric-dersleri",
-      "title": "İstanbul Yüz Yüze & Online Özel Briç Dersleri | Erdem Öztürk",
-      "description": "Milli Takım Antrenörü Erdem Öztürk ile birebir ve özel grup briç dersleri. İstanbul Beşiktaş Levent Tenis Kulübü yüz yüze ders veya Zoom/BBO online koçluk.",
+      "title": "Özel Briç Dersi & Birebir Briç Kursu | Erdem Öztürk",
+      "description": "Milli Takım Antrenörü Erdem Öztürk ile birebir özel briç dersi ve özel grup briç kursu programları. Levent Tenis Kulübü veya Zoom/BBO canlı koçluk.",
       "breadcrumbs": [
         {
           "name": "Anasayfa",
           "item": ""
         },
         {
-          "name": "Özel Briç Dersleri",
+          "name": "Özel Briç Dersi",
           "item": "ozel-bric-dersleri"
         }
       ]
     },
     {
       "route": "istanbul-bric-dersi",
-      "title": "Beşiktaş Levent Yüz Yüze Briç Dersleri | Erdem Öztürk Briç Kursu",
-      "description": "İstanbul Beşiktaş Levent Tenis Kulübü'nde Milli Takım Antrenörü Erdem Öztürk ile yüz yüze özel briç dersleri ve kulüp ortamında pratik imkanı.",
+      "title": "Beşiktaş Levent Briç Kursu & Yüz Yüze Briç Dersi | Erdem Öztürk",
+      "description": "İstanbul Beşiktaş Levent Tenis Kulübü'nde Milli Takım Antrenörü Erdem Öztürk ile yüz yüze özel briç dersi ve kulüp ortamında briç kursları.",
       "breadcrumbs": [
         {
           "name": "Anasayfa",
           "item": ""
         },
         {
-          "name": "İstanbul Briç Dersleri",
+          "name": "İstanbul Briç Dersi",
           "item": "istanbul-bric-dersi"
         }
       ]
     },
     {
       "route": "online-bric-koclugu",
-      "title": "Online Briç Dersi & BBO Özel Masterclass | Erdem Öztürk",
-      "description": "BBO (Bridge Base Online) üzerinden Milli Takım Antrenörü Erdem Öztürk rehberliğinde canlı masa koçluğu, el analizi ve birebir online dersler.",
+      "title": "Online Briç Kursu & BBO Özel Briç Dersi | Erdem Öztürk",
+      "description": "BBO (Bridge Base Online) üzerinden Milli Takım Antrenörü Erdem Öztürk rehberliğinde canlı masa koçluğu, el analizi ve online özel briç dersi.",
       "breadcrumbs": [
         {
           "name": "Anasayfa",
@@ -75,39 +60,39 @@
       ]
     },
     {
-      "route": "dersler",
-      "title": "Briç Dersi & Özel Kurs Programları | Erdem Öztürk Briç",
-      "description": "Her seviyeye uygun yüz yüze ve online özel briç dersi programları. BBO pratik kulübü, deklare ve defans teknikleri eğitimi.",
+      "route": "hakkimda",
+      "title": "Milli Takım Antrenörü Erdem Öztürk | Briç Dersi & Kursu Biyografisi",
+      "description": "Türkiye Briç Milli Takım Kaptanı ve Antrenörü, TBF 3. Kademe Kıdemli Antrenör Erdem Öztürk kimdir? ODTÜ geçmişi, başarıları ve özel briç dersi felsefesi.",
       "breadcrumbs": [
         {
           "name": "Anasayfa",
           "item": ""
         },
         {
-          "name": "Dersler",
-          "item": "dersler"
+          "name": "Hakkımda",
+          "item": "hakkimda"
         }
       ]
     },
     {
       "route": "referanslar",
-      "title": "Öğrenci Yorumları & Turnuva Başarıları | Erdem Öztürk Briç",
-      "description": "Milli Takım Antrenörü Erdem Öztürk ile briç öğrenen öğrencilerin deneyimleri, başarı hikayeleri ve kulüp turnuvaları dereceleri.",
+      "title": "Öğrenci Yorumları & Turnuva Başarıları | Erdem Öztürk Briç Kursu",
+      "description": "Milli Takım Antrenörü Erdem Öztürk ile briç dersi alan öğrencilerin yorumları, başarı hikayeleri ve özel briç kursu referansları.",
       "breadcrumbs": [
         {
           "name": "Anasayfa",
           "item": ""
         },
         {
-          "name": "Referanslar & Başarılar",
+          "name": "Referanslar",
           "item": "referanslar"
         }
       ]
     },
     {
       "route": "sss",
-      "title": "Sıkça Sorulan Sorular (S.S.S.) | Erdem Öztürk Briç Eğitimi",
-      "description": "Briç dersi ücretleri, ders süreleri, Beşiktaş Levent lokasyonu, BBO kurulumu ve seviye tespiti hakkında merak edilen sorular.",
+      "title": "Özel Briç Dersi & Kursu S.S.S. | Erdem Öztürk",
+      "description": "Özel briç dersi ücretleri, ders süreleri, Beşiktaş Levent lokasyonu ve BBO online briç kursu kayıt soruları.",
       "has_faq": true,
       "breadcrumbs": [
         {
@@ -122,8 +107,8 @@
     },
     {
       "route": "iletisim",
-      "title": "İletişim & Özel Ders Kaydı | Erdem Öztürk Beşiktaş Levent",
-      "description": "İstanbul Beşiktaş Levent Tenis Kulübü yüz yüze dersleri veya online özel briç dersi kaydı için WhatsApp ve iletişim kanallarımız.",
+      "title": "İletişim & Briç Dersi Kaydı | Beşiktaş Levent Briç Kursu",
+      "description": "İstanbul Beşiktaş Levent Tenis Kulübü yüz yüze özel briç dersi veya BBO online briç kursu kaydı için WhatsApp ve iletişim bilgilerimiz.",
       "breadcrumbs": [
         {
           "name": "Anasayfa",
