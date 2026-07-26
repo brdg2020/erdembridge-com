@@ -332,6 +332,14 @@ def main():
                 "**/.*",
                 "**/node_modules/**"
             ],
+            "headers": [
+                {
+                    "source": "/pdf/**",
+                    "headers": [
+                        {"key": "Cache-Control", "value": "no-cache, no-store, must-revalidate"}
+                    ]
+                }
+            ],
             "redirects": [
                 {"source": "/briç-malzemeleri", "destination": "/hakkimda", "type": 301},
                 {"source": "/bri%C3%A7-malzemeleri", "destination": "/hakkimda", "type": 301},
