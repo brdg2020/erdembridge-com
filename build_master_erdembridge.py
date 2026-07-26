@@ -83,6 +83,13 @@ PAGES_META = {
         "description": "Turnuva oyuncuları için ileri seviye briç teknikleri, oyun planı analizleri, savunma stratejileri ve Erdem Öztürk imzalı briç makaleleri.",
         "type": "article"
     },
+    "birebir-bric-kursu": {
+        "slug": "birebir-bric-kursu",
+        "dir": "birebir-bric-kursu",
+        "title": "Birebir Briç Kursu & VIP Antrenörlük Programı | Erdem Öztürk",
+        "description": "Milli Takım Antrenörü Erdem Öztürk ile kişiselleştirilmiş birebir briç kursu ve VIP turnuva koçluğu. İstanbul Levent ve BBO online canlı dersler.",
+        "type": "course"
+    },
     "sss": {
         "slug": "sss",
         "dir": "sss",
@@ -328,6 +335,7 @@ def main():
             "redirects": [
                 {"source": "/briç-malzemeleri", "destination": "/hakkimda", "type": 301},
                 {"source": "/bri%C3%A7-malzemeleri", "destination": "/hakkimda", "type": 301},
+                {"source": "/bric-kursu", "destination": "/birebir-bric-kursu", "type": 301},
                 {"source": "/anasayfa", "destination": "/", "type": 301}
             ],
             "cleanUrls": True,
