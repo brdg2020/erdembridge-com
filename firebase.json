@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "bricdersi-net",
+    "site": "erdembridge-com",
     "public": ".",
     "ignore": [
       "firebase.json",
@@ -10,19 +10,18 @@
     "redirects": [
       {
         "source": "/briç-malzemeleri",
-        "destination": "/rehber",
+        "destination": "/hakkimda",
         "type": 301
       },
       {
         "source": "/bri%C3%A7-malzemeleri",
-        "destination": "/rehber",
+        "destination": "/hakkimda",
         "type": 301
-      }
-    ],
-    "rewrites": [
+      },
       {
-        "source": "**",
-        "destination": "/index.html"
+        "source": "/anasayfa",
+        "destination": "/",
+        "type": 301
       }
     ],
     "cleanUrls": true,
