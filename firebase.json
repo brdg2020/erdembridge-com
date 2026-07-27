@@ -1,6 +1,7 @@
 {
   "hosting": {
-    "site": "bricdersi-net",
+    "site": "erdembridge-com",
+
     "public": ".",
     "ignore": [
       "firebase.json",
