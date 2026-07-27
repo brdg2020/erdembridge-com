@@ -136,7 +136,7 @@ def build_schema_json(slug, page_meta):
                 "https://www.erdembridge.com",
                 "https://www.instagram.com/bric.dersi",
                 "https://www.youtube.com/channel/UCPvnp7T9eOpixvbIA4olNYQ",
-                "https://www.udemy.com/user/erdem-ozturk-2/",
+                "https://www.udemy.com/course/bric-dersi/?referralCode=39CF07889CA4DDF887DF",
                 "https://apps.apple.com/tr/app/bridge-begin/id1241733213"
             ],
             "knowsAbout": [
