@@ -1,7 +1,6 @@
 {
   "hosting": {
     "site": "erdembridge-com",
-
     "public": ".",
     "ignore": [
       "firebase.json",
