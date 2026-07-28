@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.bricdersi.net/sitemap.xml
+Sitemap: https://www.erdembridge.com/sitemap.xml

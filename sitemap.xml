@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.bricdersi.net/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://www.bricdersi.net/ozel-bric-dersleri</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.bricdersi.net/istanbul-bric-dersi</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.bricdersi.net/online-bric-koclugu</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.bricdersi.net/hakkimda</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.bricdersi.net/referanslar</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://www.bricdersi.net/sss</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.bricdersi.net/iletisim</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.erdembridge.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.erdembridge.com/hakkimda</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.erdembridge.com/ozel-bric-dersleri</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.erdembridge.com/istanbul-bric-dersi</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.erdembridge.com/online-bric-koclugu</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.erdembridge.com/dersler</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.erdembridge.com/referanslar</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.erdembridge.com/sss</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.erdembridge.com/iletisim</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
 </urlset>
