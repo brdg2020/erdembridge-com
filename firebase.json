@@ -1,12 +1,11 @@
 {
   "hosting": {
-    "site": "erdembridge-com",
+    "site": "erdembridge-com-site",
     "public": ".",
     "ignore": [
       "firebase.json",
       "**/.*",
-      "**/node_modules/**",
-      "**/*.md"
+      "**/node_modules/**"
     ],
     "headers": [
       {
@@ -37,61 +36,6 @@
       },
       {
         "source": "/anasayfa",
-        "destination": "/",
-        "type": 301
-      },
-      {
-        "source": "/briç-nedir",
-        "destination": "/hakkimda",
-        "type": 301
-      },
-      {
-        "source": "/bri%C3%A7-nedir",
-        "destination": "/hakkimda",
-        "type": 301
-      },
-      {
-        "source": "/briç-dersleri/:path*",
-        "destination": "/ozel-bric-dersleri",
-        "type": 301
-      },
-      {
-        "source": "/bri%C3%A7-dersleri/:path*",
-        "destination": "/ozel-bric-dersleri",
-        "type": 301
-      },
-      {
-        "source": "/briç-nasıl-oynanır/:path*",
-        "destination": "/ozel-bric-dersleri",
-        "type": 301
-      },
-      {
-        "source": "/bri%C3%A7-nas%C4%B1l-oynan%C4%B1r/:path*",
-        "destination": "/ozel-bric-dersleri",
-        "type": 301
-      },
-      {
-        "source": "/briç-öğren/:path*",
-        "destination": "/ozel-bric-dersleri",
-        "type": 301
-      },
-      {
-        "source": "/bri%C3%A7-%C3%B6%C4%9Fren/:path*",
-        "destination": "/ozel-bric-dersleri",
-        "type": 301
-      },
-      {
-        "source": "/bric-puan-hesaplama-ve-skor",
-        "destination": "/ozel-bric-dersleri",
-        "type": 301
-      },
-      {
-        "source": "/bric-bbo-online-oyun-rehberi",
-        "destination": "/online-bric-koclugu",
-        "type": 301
-      },
-      {
-        "source": "/posts/:path*",
         "destination": "/",
         "type": 301
       }

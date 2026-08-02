@@ -325,7 +325,7 @@ def main():
     # Update firebase.json with correct site name
     firebase_config = {
         "hosting": {
-            "site": "erdembridge-com",
+            "site": "erdembridge-com-site",
             "public": ".",
             "ignore": [
                 "firebase.json",
